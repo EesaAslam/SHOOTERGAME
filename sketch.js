@@ -165,7 +165,7 @@ function draw() {
 
    // to destroy zombie and player and to display a msg in gameState lost
    if (gameState == "lost"){                
-    textSize(200);
+    textSize(100);
     fill("red");
     text("You Lost",400,400);                                 
                                                    
@@ -184,7 +184,7 @@ function draw() {
     player.destroy();
    } 
    else if (gameState == "bullet"){
-    textSize(200);
+    textSize(100);
     fill("white"); 
     text("you ran out of Bullets",470,410); 
     
